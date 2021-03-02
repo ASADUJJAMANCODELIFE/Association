@@ -8,5 +8,40 @@ namespace Association
 {
     class Address
     {
-    }
+        private string roadNo, houseNo, city, country;
+
+        public Address(string roadNo, string houseNo, string city, string country)
+        {
+            this.roadNo = roadNo;
+            this.houseNo = houseNo;
+            this.city = city;
+            this.country = country;
+
+        }
+
+        public string
+            {
+            set
+            get
+
+            }
+    public string
+            {
+            set
+            get
+
+            }
+   public string
+       {
+    set
+    get
+
+            }
+public string
+{
+    set
+    get
+
+            }
+    
 }
