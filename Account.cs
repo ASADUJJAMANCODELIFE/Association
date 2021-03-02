@@ -64,7 +64,7 @@ namespace Association
         {
 
         }
-           public void showAccountAllInformation ()
+           public void ShowAccountInformation ()
 
         {
             Console.WriteLine("Account Number: \nAccount Name: \nBalance:", this.accountNumber, this.accountName, this.balance);

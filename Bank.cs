@@ -17,7 +17,23 @@ namespace Association
             this.myBank = new Account[size];
 
         }
+        public void Addaccount()
+        {
 
+        }
+
+        public void DeleteAccount()
+        {
+
+        }
+            public void Transaction()
+        {
+
+        }
+            public void PrintAccountDetails()
+        {
+
+        }
 
     }
 }
