@@ -19,29 +19,41 @@ namespace Association
 
         }
 
-        public string
-            {
-            set
-            get
+        public string RoadNo  //property
+        {
+            set { this.roadNo = value; }
+            get { return this.roadNo; }
 
-            }
-    public string
-            {
-            set
-            get
+        }
+        public string HouseNo
+        {
+            set { this.houseNo = value; }
+            get { return this.houseNo; }
 
-            }
-   public string
-       {
-    set
-    get
+        }
+        public string City
+        {
+            set { this.city = value; }
+            get { return this.city; }
 
-            }
-public string
-{
-    set
-    get
+        }
 
-            }
-    
+        public string Country
+        {
+            set { this.country = value; }
+            get { return this.country; }
+
+        }
+        public string GetAddress()
+        {
+            return 
+
+        }
+
+
+    }
+
+
+
+
 }
