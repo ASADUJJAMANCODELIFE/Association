@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Association
 {
     class Address
-    {
+    {  //all this attribute are privet
         private string roadNo, houseNo, city, country;
 
         public Address(string roadNo, string houseNo, string city, string country)
