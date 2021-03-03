@@ -46,7 +46,7 @@ namespace Association
         }
         public string GetAddress()
         {
-            return 
+            return this.roadNo + "," + this.houseNo + "," + this.city + "," + this.country;
 
         }
 

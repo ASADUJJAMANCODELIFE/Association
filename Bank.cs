@@ -38,7 +38,7 @@ namespace Association
 
                 if (myBank[i].AccountNumber == accountNo)
                 {
-                    for (int j = 0; j < (myBank.Length - 1); j++)
+                    for (int j = 0; j < (myBank.Length - 1);j++)
                     {
                         myBank[i] = myBank[j = 1];
                         break;
