@@ -38,9 +38,9 @@ namespace Association
 
                 if (myBank[i].AccountNumber == accountNo)
                 {
-                    for (int j = 0; j < (myBank.Length - 1);j++)
+                    for (int j = i; j < (myBank.Length-1); j++)
                     {
-                        myBank[i] = myBank[j = 1];
+                        myBank[j] = myBank[j + 1];
                         break;
                     }
                     count++;
@@ -49,7 +49,7 @@ namespace Association
 
             }
         }
-            public void Transaction()
+            public void Transaction() // for withdraw , deposite and transfer
         {
 
         }
@@ -61,6 +61,7 @@ namespace Association
 
                 if(myBank[i].AccountNumber == accountNo)
                 {
+                    Console.WriteLine("------" + bankName + "-------\n");
                     myBank[i].ShowAccountInformation();
                     break;
                 }
@@ -69,6 +70,7 @@ namespace Association
 
         public void PrintAllAccount()
         {
+            Console.WriteLine("------" + bankName + "-------\n");
             for (int i = 0; i < myBank.Length; i++)
             {
 
